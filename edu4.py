@@ -1,0 +1,11 @@
+import collections
+d1=collections.deque("Google")
+print(d1)
+d1.extend('raj')
+print("After extend:",d1)
+d1.append('hi')
+print('After append:',d1)
+d1.extendleft('de')
+print('After Extend Left:',d1)
+d1.appendleft("le")
+print("After Append left:",d1)
